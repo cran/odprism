@@ -22,7 +22,7 @@ If results were generated with the option \code{alpha=0} then the results for st
 }
 \value{ Plots two to three graphs. Left panel: bias-inaccuracy. Middle panel: Imprecsion. Right panel: statistical power.  }
 \references{
- van de Pol, M. (submitted) Quantifying individual reaction norms: How study design affects the accuracy, precision and power of random regression models.
+ van de Pol, M. 2012 Quantifying individual reaction norms: How study design affects the accuracy, precision and power of random regression models. Methods in Ecology & Evolution, In press.
 }
 \author{ Martijn van de Pol
 }

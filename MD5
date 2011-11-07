@@ -1,0 +1,16 @@
+30c5e4f8f509a4305641b7f233e46737 *DESCRIPTION
+bb526d1e0d0cf7bbd20be8ab68958501 *NAMESPACE
+59116b0fa48c64ead2eec723e93f2bab *R/odprim.R
+b35321810d6d6d5b22c930b48dd42c9a *R/odprismB.R
+618d21d8552a6ce2f4312ce72b4c3241 *R/odprismU.R
+75cf3f3f6f5ee2a7de4b98221b1a52da *R/plot2d.prism.R
+f48723cd57cca736c6e2cc7ce7ede273 *R/plot3d.prism.R
+3424e33ee02b15534d92c2fca60fd926 *data/DataExample.rda
+c870201588f43760381f180caf8f5215 *man/DataExample.Rd
+b0ed73f8cfa4c7331f15a790fc2d845b *man/odprim.Rd
+3c106bf9b42ef5f1278cb2b966ff715f *man/odprism-package.Rd
+617e8b0be61bf2d96864147ff857acc6 *man/odprismB.Rd
+1aaeac3f6ec43c4971cca00a99cf048f *man/odprismU.Rd
+12a0f1b6a9035d2973192d1d99815055 *man/plot2d.prism.Rd
+bc42368a48ad2e1f1f0f5c234f984608 *man/plot3d.prism.Rd
+35f78a9249bd170bce4f1cdf86f2667e *odprism-Ex.R

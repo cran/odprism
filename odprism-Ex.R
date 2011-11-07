@@ -18,9 +18,11 @@ flush(stderr()); flush(stdout())
 
 ### ** Examples
 
-## plot DataExample in various ways
-DataExample<-odprismB(indiv=c(10,25,50,75,100), repl=c(2,4,6,8,10), 
-  random=c(0.2,0.1,0.5), sims=10, alpha=0.05)
+## see ?odprism  for more examples, and above how DataExample is produced
+
+data(DataExample)
+
+## plot DataExample in various ways:
 plot2d.prism(x=DataExample, variable="VS", xvar="G", cons=10)
 plot3d.prism(x=DataExample, variable="VS")
 

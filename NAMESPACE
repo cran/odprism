@@ -1,0 +1,20 @@
+###------------ Imports ----------------------
+
+## 1) Very radical ... but works at least
+import(stats)# *before* lme4!
+import(Matrix)
+import(lme4)# it uses *many* of those, e.g. lmer(), fixef(), VarCor(), ...
+
+if(FALSE) {## 2) less radical .. but needs more experimentation
+importFrom(stats, lm, logLik, vcov)  #.. add more
+importFrom(Matrix, diag)# .. add more
+importFrom(lme4,  lmer, logLik, fixef, vcov, VarCorr)
+}
+
+importFrom(fields, image.plot)# only used in R/plot3d.prism.R
+
+###------------ Exports ----------------------
+
+## cheap but "not recommended for production code":
+exportPattern("^[^\\.]")## all but the "."
+

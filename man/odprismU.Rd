@@ -35,7 +35,7 @@ See the help file of DataExample for more details.
 
 }
 \references{
-van de Pol, M. (submitted) Quantifying individual reaction norms: How study design affects the accuracy, precision and power of random regression models.
+van de Pol, M. 2012 Quantifying individual reaction norms: How study design affects the accuracy, precision and power of random regression models. Methods in Ecology & Evolution, In press.
 }
 \author{
 Martijn van de Pol 

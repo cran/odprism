@@ -1,10 +1,13 @@
 plot2d.prism <-
 function(x, variable, xvar="G", cons, ylim1=c(0,0)) {
   if (!inherits(x, "odprism")) {stop("Only works with \"odprism\" objects") }
-  if(variable!="b0" & variable!="bX" & variable!="bX2" & variable!="VI" & variable!="VS" & variable!="VR" & variable!="C" )   { stop("Please choose varaible to be b0, bX, VI, VS, VR or C") }
+  if(!(variable %in% c("b0", "bX", "bX2", "VI", "VS", "VR", "C")))
+      stop("Please choose variable to be  b0, bX, bX2, VI, VS, VR or C")
   if(xvar!="G" & xvar!="R")   { stop("Please choose xvar to be either G or R") }
-  x11()
- ifelse(is.na(x$PowerRandInt[1])==TRUE, par(mfrow=c(1,1), mar=c(10,5,5,5)), par(mfrow=c(1,2), mar=c(10,5,5,5)))
+  dev.new()
+  if(is.na(x$PowerRandInt[1]))
+      par(mfrow= c(1,1), mar=c(10,5,5,5))
+  else par(mfrow=c(1,2), mar=c(10,5,5,5))
   if(variable=="b0") {
     a1<-x$EstInt
     a2<-x$Int

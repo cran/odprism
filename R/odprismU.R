@@ -67,7 +67,7 @@ function(pops, years, sims=1000, fixed=c(0,0), correl=TRUE, random, Survival, Xv
   powerFixSlope<-numeric(length(Npops))
   powerRandInt<-numeric(length(Npops))
   powerRandSlope<-numeric(length(Npops))   
-  x11()
+  dev.new() # rather than x11()
   plot(seq(-4*(VR+VI),4*(VR+VI),0.1),(1/(1+exp(-1*(Sbeta0+ViabilitySelection*seq(-4*(VR+VI),4*(VR+VI),0.1))))), type="l", xlim=c(-3*(VR+VI),3*(VR+VI)), ylim=c(0,1), xlab="Y value", ylab="annual survival probability", main="viability selection on trait Y" ) 
   Scounter<-0
   for (m in 1:(length(Npops))) {

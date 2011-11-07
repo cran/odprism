@@ -18,7 +18,7 @@
 Martijn van de Pol
 }
 \references{
-van de Pol, M. (submitted) Quantifying individual reaction norms: How study design affects the accuracy, precision and power of random regression models.
+van de Pol, M. 2012 Quantifying individual reaction norms: How study design affects the accuracy, precision and power of random regression models. Methods in Ecology & Evolution, In press.
 }
 \keyword{ package }
 \seealso{ \code{\link{odprim}}, \code{\link{odprismB}}, \code{\link{odprismU}}, \code{\link{plot2d.prism}}, \code{\link{plot3d.prism}},  \code{\link{DataExample}}}

@@ -29,7 +29,7 @@ Dataframe of class 'odprism' that contains the chosen values used to generate th
 For example the column 'VR' gives the value used to generate residual noise, while the columns 'Q1VR', 'Q2VR', 'EstVR', 'Q3VR' and 'Q4VR' give respectively the 2.5, 25, 50 (i.e. median), 75 and 97.5 percentiles of the parameters estimates of VR in all simulated dataset.  
 See the help file of DataExample for more details.
 }
-\references{ van de Pol, M. (submitted) Quantifying individual reaction norms: How study design affects the accuracy, precision and power of random regression models.}
+\references{ van de Pol, M. 2012 Quantifying individual reaction norms: How study design affects the accuracy, precision and power of random regression models. Methods in Ecology & Evolution, In press.}
 \author{ Martijn van de Pol }
 
 \seealso{

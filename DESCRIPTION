@@ -2,8 +2,8 @@ Package: odprism
 Type: Package
 Title: Optimal design and performance of random intercept and slope
         models.
-Version: 1.0
-Date: 2011-06-09
+Version: 1.1
+Date: 2011-11-07
 Author: Martijn van de Pol
 Maintainer: Martijn van de Pol <m.van.de.pol@myscience.eu>
 Description: Simulation functions to assess the optimal design and
@@ -21,8 +21,9 @@ Description: Simulation functions to assess the optimal design and
         as the statistical power.
 License: GPL-2
 Encoding: UTF-8
-Depends: R (>= 2.11.0), lme4, mvtnorm, fields, graphics
-LazyLoad: yes
-Packaged: 2011-06-16 00:02:55 UTC; Martijn
+Depends: R (>= 2.11.0), stats, graphics, lme4, mvtnorm
+Imports: Matrix, fields
+Packaged: 2013-03-14 07:09:34 UTC; ripley
 Repository: CRAN
-Date/Publication: 2011-06-17 06:45:17
+Date/Publication: 2013-03-14 08:23:34
+NeedsCompilation: no
